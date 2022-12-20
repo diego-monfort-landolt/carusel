@@ -9,8 +9,6 @@
     border: none;
     border-radius: 2em;
     overflow: hidden;
-
-
 }
 
 .carrousel .grande {
@@ -20,12 +18,9 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-
-background-color: orange;
    
-    box-shadow: 1em 1em 1em rgba(68, 68, 68, 0.689);
     border: none;
-    border-radius: 2em 2em 2em 2em;
+    border-radius: 2em;
     transition:  all .5s ease;
     transform: translateX(0%);
  
@@ -36,10 +31,11 @@ background-color: orange;
     min-height: 20vh;
     
     border: none;
-    border-radius: 2em 2em 2em 2em;
+    border-radius: 3em;
+    box-shadow: 1em 1em 1em rgba(68, 68, 68, 0.689);
     margin: 1em;
-   padding: 2em;
-   background-size: cover;  
+    padding: 2em;
+    object-fit: cover;
     
    
  }
@@ -49,7 +45,7 @@ background-color: orange;
     padding: .2em;
     margin: 1em 0 0;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
